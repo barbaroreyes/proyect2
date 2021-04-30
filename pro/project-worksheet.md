@@ -15,7 +15,7 @@ Use this section to include info about the API you have chosen and a code snippe
 
 
 ```
-{data: {} }
+{data: {https://deckofcardsapi.com/api/deck/<<deck_id>>/draw/?count=2} }
 ```
 
 
