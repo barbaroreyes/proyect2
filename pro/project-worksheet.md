@@ -48,11 +48,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | render all app | 
-| Header | This will render the header include the nav ,main ,and footer| 
+| Header | This will render the header include the nav ,main ,and footer|
+| main | this will  render all childrens views
 | Footer | This will render the a submit form | 
 
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -61,6 +60,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
+  
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
 
 ## Code Snippet
