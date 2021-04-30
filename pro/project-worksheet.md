@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [add your github repo link]()
-- [add your deployment link]()
+- [add your github repo link](https://github.com/barbaroreyes/proyect2)
+- [add your deployment link](https://barbaro-project2.netlify.app/)
 
 ## Project Description
 
