@@ -6,8 +6,8 @@
 - [add your deployment link](https://barbaro-project2.netlify.app/)
 
 ## Project Description
+ This app Show decks meaning
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 ## API
 
