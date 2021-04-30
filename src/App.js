@@ -1,12 +1,14 @@
 
 import './App.css';
+import Main from './components/main';
 import Projects from './components/projects';
 
 function App() {
   return (
-    <div className="App">
+    <div className='container'>
      
      <Projects/>
+     <Main/>
     </div>
   );
 }

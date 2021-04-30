@@ -11,7 +11,11 @@ const Projects = () => {
   useEffect(()=>{getProject()},[])  
     return (
         <div>
-          
+          <header>
+              <div>Site Name</div>
+              <div>Nav</div>
+            </header>
+
         </div>
     )
 }
