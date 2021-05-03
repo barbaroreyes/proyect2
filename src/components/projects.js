@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import Decks from './decks'
-const Projects = () => {
-    
+const Projects = (props) => {
+ 
     return (
         <div>
           <header>

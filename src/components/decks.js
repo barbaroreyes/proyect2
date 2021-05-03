@@ -1,13 +1,6 @@
 import React from 'react'
 import Deck from './deck'
-const Decks = (props) => {
-    console.log(props)
-    return (
-        <div>
-           
-            <Deck/>
-        </div>
-    )
-}
 
+const Decks = (props) => 
+ <Deck {...props}/>
 export default Decks

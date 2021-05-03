@@ -2,9 +2,9 @@ import React from 'react'
 import Decks from './decks'
 
 const Main = () => {
-  return (
+return (
     <div>
-      <Decks/>
+      <Decks />
     </div>
   )
 }

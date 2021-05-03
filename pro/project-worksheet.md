@@ -6,16 +6,34 @@
 - [add your deployment link](https://barbaro-project2.netlify.app/)
 
 ## Project Description
- This app Show decks meaning
+This Small Store will take you to know part of the beer culture.
 
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
-
 
 ```
-{data: {https://deckofcardsapi.com/api/deck/<<deck_id>>/draw/?count=2} }
+{data: {https://api.punkapi.com/v2/beers?page=2&per_page=80} }
+{
+"id": 1,
+"name": "Buzz",
+"tagline": "A Real Bitter Experience.",
+"first_brewed": "09/2007",
+"description": "A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once.",
+"image_url": "https://images.punkapi.com/v2/keg.png",
+"abv": 4.5,
+"ibu": 60,
+"target_fg": 1010,
+"target_og": 1044,
+"ebc": 20,
+"srm": 10,
+"ph": 4.4,
+"attenuation_level": 75,
+"volume": {
+"value": 20,
+"unit": "litres"
+}
+
 ```
 
 
@@ -61,14 +79,22 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 ## Additional Libraries
   
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+React-Boostrap
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description.  Code snippet should not be greater than 10 lines of code. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+const addName= e =>{
+    e.preventDefault();
+    if(!name.trim()){
+        setError('Error')
+        return
+      }
+    const newId ={id: uniqid(),titleName:name}
+    setNameList(
+    [...nameList,newId])
+    setName('')
+    setError(null)
+    }
 ```

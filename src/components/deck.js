@@ -1,14 +1,15 @@
 import React from 'react'
 
-const Deck = () => {
+const Deck = (props) => {
+  
   return (
     <div className ='deck'>
-            <img src='' alt=''/>
-            <span>Value</span>
-             <span>Suit</span>
-             <span>Code</span>
-
-    </div>
+   <div>
+     <h1>Name  :{props.name}</h1>
+    <h3>First_brewed :{props.first_brewed}</h3>
+     </div>
+      
+ </div>
   )
 }
 
