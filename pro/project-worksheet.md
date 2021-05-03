@@ -41,7 +41,7 @@ This Small Store will take you to know part of the beer culture.
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes](https://imgur.com/T8TD2E6)
+- [add link to your wireframes](https://imgur.com/yGgBLND)
 - [add link to your react architecture](https://imgur.com/eRcdPI3)
 
 
@@ -50,13 +50,18 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP EXAMPLE
-- Find and use external api 
-- Render data on page 
-- Allow user to interact with the page
+- Display a HomePage whith infomation about the beers and button 'go inside  to show a beers page'
+- display a list of beers and the complete information of each one of them that will allow the customer to buy the one that best suits their needs according to its manufacture 
+- nuid a form to contact page
+- Navbar with options that link to their corresponding pages
+- Will be designed for use on all views
+
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Add  firebase for storage
+- add function to login page and store all user post
+
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -73,9 +78,15 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Creating plan && wireframes |H|4|6|time
+| Adding Form | H | 3| time | time|
+| Working with API | H | 3| time | time |
+| Home-Page-logic| H|3|time|time| 
+| Main_page-logic| H|3|time|time|
+|routing-Component-|H|4|time|time|
+|styling  | H|10|time|time|time|time|
+|Nav-completetion|H|4|time|time
+| Total | H | 40| 5 | 5 |
 
 ## Additional Libraries
   
